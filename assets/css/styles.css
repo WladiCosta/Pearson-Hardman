@@ -614,4 +614,72 @@ i{
         border: none;
         border-bottom: 1px solid var(--secondary-text-color);
     }
+    /* Depoimentos */
+
+    .text-container{
+        text-align: center;
+        padding: 2rem;
+    }
+    /* Colaboradores */
+    #team{
+        margin-top: 2rem;
+    }
+
+    #team h2{
+        font-size: 2.5rem;
+    }
+
+    .employees{
+        flex-wrap: wrap;
+    }
+
+    /* Contato */
+
+    #contact{
+        padding-bottom: 0;
+    }
+
+    #contact-information{
+        padding: 7rem 1rem;
+    }
+
+    #contact-information .form-control {
+        flex-direction: column;
+    }
+
+    #contact-information .btn {
+        align-self: auto;
+
+    }
+    /* Footer */
+    
+    #footer{
+        flex-wrap: wrap;
+    }
+
+    #footer i {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    .footer-brand{
+        text-align: center;
+    }
+
+    .contact-info, 
+    .links-container{
+        width: 100%;
+    }
+
+    .networks{
+        margin-bottom: 3rem;
+    }
+
+    .links-container{
+        margin-bottom: 1rem;
+    }
+
+    .links-container h4{
+        margin-bottom: 1.5rem;
+    }
 }
