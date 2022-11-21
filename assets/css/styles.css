@@ -68,11 +68,15 @@ i{
     font-weight: bold;
     padding: 1rem;
 }
+.banner.active {
+    opacity: 1;
+    
+}
 
 .banner{
     max-width: 50%;
     padding: 4rem;
-    opacity: 100;
+    opacity: 0;
     position: absolute;
     transition: .6s;
 
